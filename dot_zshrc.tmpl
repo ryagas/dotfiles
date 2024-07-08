@@ -150,7 +150,7 @@ alias gcc='gcc-13'
 alias cc='gcc-13'
 alias g++='g++-13'
 alias c++='c++-13'
-export GITLAB_API_PRIVATE_TOKEN='glpat-sBiD6stS1yRyP9sFyzjA'
+export GITLAB_API_PRIVATE_TOKEN='{{ keyring "gitlab" "ryagas" }}'
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
